@@ -7,6 +7,7 @@ Shader "Custom/GrassGeometry" {
 	SubShader {
 	Pass {
 
+	// TO NEVER FORGET: With no normals, no render !!!!! 
 
 		Tags { "RenderType"="Opaque" }
 		LOD 200
